@@ -47,3 +47,9 @@ You can't clear a specific data type, you can only wipe the whole pasteboard.
 When you start from a blank slate, it is important that you don't add data that removes existing data. 
 
 You should generally move from pain to rich to hyper text and add private data at the end.
+
+See the method [SystemEventDelegate](https://github.com/miyako/4d-tips-write-pro-paste-reference/blob/main/write-pro-pasteboard-example/Project/Sources/Methods/SystemEventDelegate.4dm).
+
+Notice this is called in a worker. 
+
+This is to avoid blokcing the application during the *On System Event*.
