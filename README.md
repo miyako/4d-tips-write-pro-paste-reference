@@ -30,7 +30,7 @@ There is also a `com.4d.private.text.span` and  `com.4d.private.text.spanext`, w
 <span style="-d4-ref:'[Table_1:1]Field_2:2'"> </span>
 ```
 
-The RTF, by contrast, contains the text as WYSIWIG.
+`public.rtf`, by contrast, contains the text as WYSIWIG.
 
 <img width="470" alt="" src="https://user-images.githubusercontent.com/1725068/194074664-693a6fe6-169f-4509-94a5-60db7f819e7a.png">
 
