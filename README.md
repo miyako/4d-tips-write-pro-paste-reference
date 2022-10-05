@@ -35,3 +35,15 @@ The RTF, by contrast, contains the text as WYSIWIG.
 <img width="470" alt="" src="https://user-images.githubusercontent.com/1725068/194074664-693a6fe6-169f-4509-94a5-60db7f819e7a.png">
 
 However, most external apps will prefer HTML over RTF, which mwans the pasted text would be empty.
+
+## The Solution
+
+Before pasting to an external app, the use would likely move 4D to the background. So there is a chance to perform some tricks in the *On System Event* database method.
+
+The goal is to remove `public.html` from the list of pasteboard data types. 
+
+You can't clear a specific data type, you can only wipe the whole pasteboard.
+
+When you start from a blank slate, it is important that you don't add data that removes existing data. 
+
+You should generally move from pain to rich to hyper text and add private data at the end.
